@@ -1,0 +1,89 @@
+.sidebar {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-right: 1px solid #e1e4e8;
+  }
+  
+  .dropdown-section {
+    margin-bottom: 1rem;
+  }
+  
+  .dropdown-header {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    list-style: none; /* Removes default arrow */
+  }
+  
+  /* Hide default details marker */
+  .dropdown-header::-webkit-details-marker {
+    display: none;
+  }
+  
+  .dropdown-content {
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid #e1e4e8;
+  }
+  
+  .dropdown-subsection {
+    margin-top: 0.5rem;
+  }
+  
+  .dropdown-subheader {
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.3rem 0;
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .dropdown-subcontent {
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    border-left: 1px dashed #e1e4e8;
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 0.3rem 0;
+    color: #24292e;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-item:hover {
+    color: #0366d6;
+  }
+  
+  .dropdown-note {
+    font-size: 0.8rem;
+    color: #6a737d;
+    padding: 0.2rem 0 0.2rem 0.5rem;
+    font-style: italic;
+  }
+  
+  .dropdown-item-group {
+    margin: 0.5rem 0;
+  }
+  
+  .dropdown-item-title {
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.3rem 0;
+  }
+  
+  .dropdown-text {
+    font-size: 0.8rem;
+    color: #6a737d;
+    padding: 0.2rem 0 0.2rem 0.5rem;
+  }
+  
+  .dropdown-divider {
+    height: 1px;
+    background-color: #e1e4e8;
+    margin: 0.5rem 0;
+  }
